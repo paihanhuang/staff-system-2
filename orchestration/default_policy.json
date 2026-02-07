@@ -1,0 +1,9 @@
+{
+  "mode": "context_isolated_staff_system",
+  "max_rounds": 2,
+  "assumptions_freeze_after_round_1": true,
+  "round_2_delta_only": true,
+  "require_schema_validation_before_handoff": true,
+  "block_on_unresolved_ship_blockers": true,
+  "block_on_high_risk_weak_claims": true
+}

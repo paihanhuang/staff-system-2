@@ -1,0 +1,16 @@
+{
+  "role": "architect|engineer|tester|coordinator",
+  "run_id": "YYYYMMDD-short-topic",
+  "round": 1,
+  "allowed_context": {
+    "problem_frame": {},
+    "assumptions_constraints": {},
+    "upstream_artifacts": []
+  },
+  "required_output_schema_ref": "skills/<role-skill>/SKILL.md",
+  "instructions": [
+    "Use only allowed_context.",
+    "Do not infer hidden context.",
+    "Return schema-valid JSON only."
+  ]
+}

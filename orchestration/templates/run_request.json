@@ -1,0 +1,9 @@
+{
+  "run_id": "YYYYMMDD-short-topic",
+  "question": "Paste your design question here.",
+  "constraints": [],
+  "priorities_or_weights": {},
+  "max_rounds": 2,
+  "context_isolation": true,
+  "strict_schema_enforcement": true
+}
