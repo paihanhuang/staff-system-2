@@ -1,0 +1,15 @@
+[Unit]
+Description=Slack Codex Daemon
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/etem/staff-system-3
+ExecStart=/home/etem/staff-system-3/integrations/slack-codex-daemon/run_daemon.sh
+Restart=always
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
