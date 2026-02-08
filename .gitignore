@@ -2,3 +2,6 @@
 integrations/slack-mcp/.env
 integrations/slack-codex-daemon/.env
 integrations/slack-codex-daemon/state.json
+
+__pycache__/
+*.pyc
